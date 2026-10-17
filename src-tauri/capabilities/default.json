@@ -1,0 +1,15 @@
+{
+  "identifier": "default",
+  "description": "Main app and widget window capabilities",
+  "windows": [
+    "main",
+    "immich-mini"
+  ],
+  "permissions": [
+    "core:default",
+    "core:webview:allow-create-webview-window",
+    "core:window:allow-close",
+    "core:event:allow-listen",
+    "core:event:allow-emit"
+  ]
+}
